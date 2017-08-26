@@ -45,5 +45,5 @@ void loop() {
     if (digitalRead(languagePins[i]) == LOW) { pressKey(languageKeys[i], 100); };
   }
 
-  delay(10);
+  delay(20);
 }
